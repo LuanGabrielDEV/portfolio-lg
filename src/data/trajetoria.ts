@@ -14,7 +14,7 @@ export const trajetoria: Marco[] = [
     titulo: 'Bacharelado em Sistemas de Informação',
     tipo: 'formacao',
     ramo: 'estudos',
-    instituicao: '[Instituição]',
+    instituicao: 'Uninassau',
   },
   {
     data: '2026-10',
