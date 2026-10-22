@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0b0f17;
+  --color-deep: #05070b;
+  --color-surface: #121826;
+  --color-line: #1c2433;
+  --color-line-strong: #263044;
+  --color-cyan: #22d3ee;
+  --color-electric: #2f6bff;
+  --color-ice: #c9f8ff;
+  --color-mist: #b9c4d2;
+  --color-muted: #8b97a8;
+  --color-text: #eef3f8;
+
+  --font-sans: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-cyan);
+  color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@keyframes pisca {
+  50% {
+    opacity: 0;
+  }
+}
+.cursor-pisca {
+  animation: pisca 1.1s steps(1) infinite;
+}
