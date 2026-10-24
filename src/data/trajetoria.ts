@@ -22,7 +22,7 @@ export const trajetoria: Marco[] = [
     tipo: 'projeto',
     ramo: 'main',
     descricao: 'Página de inscrição de um evento, com pagamento online e confirmação automática por e-mail.',
-    link: 'https://projeto-romper-green.vercel.app/',
+    link: 'https://acoragempararomper.vercel.app/',
   },
   {
     data: '2026-10',

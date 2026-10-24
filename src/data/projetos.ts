@@ -20,7 +20,7 @@ export const projetos: Projeto[] = [
     stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Supabase', 'Mercado Pago', 'Google Planilhas', 'Vercel'],
     imagem: '/projetos/romper.jpg',
     repositorio: 'https://github.com/LuanGabrielDEV/projeto-romper',
-    demo: 'https://projeto-romper-green.vercel.app/',
+    demo: 'https://acoragempararomper.vercel.app/',
     data: '2026-10',
     status: 'concluido',
     destaque: true,
