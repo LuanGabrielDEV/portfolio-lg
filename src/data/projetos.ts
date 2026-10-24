@@ -19,7 +19,7 @@ export const projetos: Projeto[] = [
       'Site do evento "Coragem para Romper e Recomeçar", uma experiência presencial para mulheres.\n\nA visitante conhece a proposta, a programação e as organizadoras, faz a inscrição e paga pelo Mercado Pago sem sair da página. A inscrição vai sozinha para uma planilha do Google e ela recebe um e-mail de confirmação na hora. Também tem perguntas frequentes e botão de WhatsApp para tirar dúvidas.',
     stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Supabase', 'Mercado Pago', 'Google Planilhas', 'Vercel'],
     imagem: '/projetos/romper.jpg',
-    repositorio: 'https://github.com/LuanGabrielDEV/projeto-romper',
+    repositorio: 'https://github.com/LuanGabrielDEV/acoragemderomper',
     demo: 'https://acoragempararomper.vercel.app/',
     data: '2026-10',
     status: 'concluido',
