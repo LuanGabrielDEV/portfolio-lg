@@ -40,6 +40,14 @@ export const trajetoria: Marco[] = [
     descricao: 'Suporte de TI para a operação de ensino a distância.',
   },
   {
+    data: '2026-03',
+    titulo: 'Desafio de Emagrecimento – 7 Dias',
+    tipo: 'projeto',
+    ramo: 'main',
+    descricao: 'Página de vendas para o desafio de um personal trainer, com inscrição pelo WhatsApp.',
+    link: 'https://mentoriaals.vercel.app/',
+  },
+  {
     data: '2024-08',
     titulo: 'Análise e Desenvolvimento de Sistemas',
     tipo: 'formacao',

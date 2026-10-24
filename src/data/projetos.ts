@@ -26,6 +26,19 @@ export const projetos: Projeto[] = [
     destaque: true,
   },
   {
+    id: 'desafio-7-dias',
+    titulo: 'Desafio de Emagrecimento – 7 Dias',
+    resumo: 'Página de vendas para o desafio de um personal trainer, com inscrição direto pelo WhatsApp.',
+    descricao:
+      'Site do desafio de 7 dias do personal trainer Alyson Rafael.\n\nA página apresenta o desafio, os benefícios, o personal e os depoimentos de alunos. Na inscrição, a pessoa preenche os dados, escolhe Pix ou cartão e é levada ao WhatsApp do personal com a mensagem pronta, facilitando o fechamento da venda. O site foi pensado primeiro para o celular, de onde vem a maioria dos acessos pelas redes sociais.',
+    stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'shadcn/ui', 'Vercel'],
+    imagem: '/projetos/mentoria-7-dias.jpg',
+    repositorio: 'https://github.com/LuanGabrielDEV/mentoriaals',
+    demo: 'https://mentoriaals.vercel.app/',
+    data: '2026-03',
+    status: 'concluido',
+  },
+  {
     id: 'portfolio-lg',
     titulo: 'Portfólio lg',
     resumo: 'Marca própria e este site, do desenho do logo até a publicação na internet.',
